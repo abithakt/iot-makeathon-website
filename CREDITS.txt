@@ -2,6 +2,11 @@
 Resources Credits : 
 --------------------------------------------
 
+Template :
+        Website URL : http://markups.io/project/eventoz-event-landing-page-template/
+	License : MIT
+	License URL : http://markups.io/terms/
+
 Bootstrap :
 	Website URL : http://getbootstrap.com/
 	License : The MIT License
