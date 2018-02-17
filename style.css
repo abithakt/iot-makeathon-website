@@ -1080,12 +1080,17 @@ button:focus {
 }
 
 .mu-sponsors-single {
-	background: #eee;
+	background: #fff;
 	display: inline;
 	float: left;
 	margin-top: 10px;
 	margin-bottom: 15px;
 	width: 100%;
+}
+
+.mu-sponsors-single img {
+	max-height: 100px;
+	background-color: #fff;
 }
 
 
