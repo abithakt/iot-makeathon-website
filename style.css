@@ -221,7 +221,7 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.jpg");
+	background-image: url("assets/images/head-featured-bg.png");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -962,7 +962,9 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	background-image: url("assets/images/register-bg.jpg");
+	background-color: #0A0A29;/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #10ABE0, #0A0A29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #10ABE0, #0A0A29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -973,7 +975,7 @@ button:focus {
 }
 
 #mu-register::before {
-	background: rgba(0,0,0,0.9);
+	background: rgba(0,0,0,0.5);
 	bottom: 0;
 	content: '';
 	left: 0;
