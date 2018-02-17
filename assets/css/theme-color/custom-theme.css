@@ -42,7 +42,7 @@ Author URI : http://www.markups.io/
 
 .mu-speakers-slider .slick-next,
 .mu-speakers-slider .slick-prev,
-/*#mu-venue,*/
+#mu-venue,
 .mu-popular-price .mu-price-tag,
 .mu-navbar .navbar-toggle,
 .mu-navbar .navbar-toggle:hover,
@@ -56,13 +56,6 @@ Author URI : http://www.markups.io/
 .mu-schedule-menu li.active a:hover,
 .mu-schedule-menu li.active a:focus {
 	background-color: #101d3e;
-}
-
-#mu-venue {
-	background-color: #0A0A29;/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #10ABE0, #0A0A29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #10ABE0, #0A0A29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .mu-social-media a:hover,
