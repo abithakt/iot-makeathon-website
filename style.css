@@ -1159,7 +1159,7 @@ button:focus {
 /*--------------------*/
 
 #mu-contact {
-	background-color: #f8f8f8;
+	/*background-color: #f8f8f8;*/
 	display: inline;
 	float: left;
 	width: 100%;
