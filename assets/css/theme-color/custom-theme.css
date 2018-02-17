@@ -108,3 +108,7 @@ Author URI : http://www.markups.io/
 	background-color: #101d3e;
 	border: 2px solid #101d3e;
 }
+
+#thankyou_message {
+	display: none;
+}
