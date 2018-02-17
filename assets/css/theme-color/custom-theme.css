@@ -64,7 +64,7 @@ Author URI : http://www.markups.io/
     background: linear-gradient(to right, #10ABE0, #0A0A29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-
+/*
 #mu-contact:before {
 	background: rgba(0,0,0,0.5);
 	bottom: 0;
@@ -74,7 +74,7 @@ Author URI : http://www.markups.io/
 	right: 0;
 	position: absolute;
 	opacity: 0.9;
-}
+}*/
 
 .mu-social-media a:hover,
 .mu-social-media a:focus {

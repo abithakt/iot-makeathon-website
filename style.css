@@ -974,7 +974,7 @@ button:focus {
 	width: 100%;
 }
 
-#mu-register::before {
+/*#mu-register::before {
 	background: rgba(0,0,0,0.5);
 	bottom: 0;
 	content: '';
@@ -983,7 +983,7 @@ button:focus {
 	right: 0;
 	position: absolute;
 	opacity: 0.9;
-}
+}*/
 
 .mu-register-area {
 	display: inline;
