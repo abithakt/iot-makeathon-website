@@ -105,8 +105,9 @@ Author URI : http://www.markups.io/
 
 .mu-reg-submit-btn:hover,
 .mu-reg-submit-btn:focus {
-	background-color: #101d3e;
-	border: 2px solid #101d3e;
+	background-color: #fff;
+	color: #101d3e;
+	border: 2px solid #fff;
 }
 
 #thankyou_message {
