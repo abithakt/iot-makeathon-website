@@ -1095,6 +1095,7 @@ button:focus {
 
 .mu-sponsors-single img {
 	max-height: 100px;
+	padding: 5px;
 	background-color: #fff;
 }
 
