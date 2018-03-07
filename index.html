@@ -177,7 +177,7 @@
 
 							<div class="mu-title-area">
 								<h2 class="mu-title heavy">Register</h2>
-								<p>Registrations will be opened soon!<br>Until then, enter your contact information to stay tuned for updates.</p>
+								<!--p>Registrations will be opened soon!<br>Until then, enter your contact information to stay tuned for updates.</p-->
                                 <div id="thankyou_message">
                                     <br><br>
                                     <p>Thank you! You will receive a confirmation message from us shortly.</p>
@@ -186,18 +186,30 @@
 
 							<div class="mu-register-content">
                                 <div id="form-messages"></div>
-								<form class="mu-register-form" id="gform" method="post" action="https://vitcsenseiot.us17.list-manage.com/subscribe/post?u=15dc6399dc21fcb96a156d45d&amp;id=8e94578f59">
+								<form method="post" action="https://vitcsenseiot.us17.list-manage.com/subscribe/post?u=15dc6399dc21fcb96a156d45d&amp;id=8e94578f59" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 
 									<div class="row">
 										<div class="col-md-6">
 											<div class="form-group">
-												<input type="text" class="form-control" placeholder="Your Full Name" name="name" required="">
+												<input type="text" class="form-control required" placeholder="Your Full Name" name="NAME1" id="mce-NAME1">
+											</div>
+										</div>
+
+                                        <div class="col-md-6">
+											<div class="form-group">
+												<input type="text" class="form-control required" placeholder="Your first teammate's name" name="NAME2" id="mce-NAME2">
+											</div>
+										</div>
+
+                                        <div class="col-md-6">
+											<div class="form-group">
+												<input type="text" class="form-control required" placeholder="Your second teammate's name" name="NAME1" id="mce-NAME1">
 											</div>
 										</div>
 
 										<div class="col-md-6">
 											<div class="form-group">
-												<input type="email" class="form-control" placeholder="Your Email" name="email" required="">
+												<input type="email" class="form-control email required" placeholder="Your Email" name="EMAIL" id="mce-EMAIL" required="">
 											</div>
 										</div>
 									</div>
@@ -205,19 +217,21 @@
 									<div class="row">
 										<div class="col-md-6">
 											<div class="form-group">
-												<input type="text" class="form-control" placeholder="Your Phone Number" name="telephone" required="">
+												<input type="text" class="form-control required" placeholder="Your Phone Number" name="PHONE" id="mce-PHONE" required="">
 											</div>
 										</div>
 										<div class="col-md-6">
 
                                         <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Your College/Affiliation" name="affl" required="">
+                                            <input type="text" class="form-control required" placeholder="Your College/Affiliation" name="affl" required="">
                                         </div>
 										</div>
+                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_15dc6399dc21fcb96a156d45d_8e94578f59" tabindex="-1" value=""></div>
 										</div>
 									</div>
                                 <center>
-									<button type="submit" class="mu-reg-submit-btn" id="postForm">SUBMIT</button>
+									<button type="submit" class="mu-reg-submit-btn" name="subscribe" id="mc-embedded-subscribe">SUBMIT</button>
                                 </center>
 					            </form>
 							</div>
@@ -424,6 +438,7 @@
 	<script type="text/javascript" src="assets/js/custom.js"></script>
     <script data-cfasync="false" type="text/javascript"
 src="form-submission-handler.js"></script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='NAME1';ftypes[1]='text';fnames[2]='NAME2';ftypes[2]='text';fnames[3]='NAME3';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='AFFL';ftypes[5]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
 
 
