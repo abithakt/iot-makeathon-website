@@ -7,7 +7,7 @@ Version: 1.0
 */
 
 
-/* Table of Content
+/* Table of Contents
 ==================================================
 #BASIC TYPOGRAPHY
 #HEADER
@@ -1025,9 +1025,10 @@ button:focus {
 	color: #333;
 }
 
-.mu-register-form .form-control::-webkit-input-placeholder {
+.mu-register-form .form-control::-webkit-input-placeholder, {
 	color: #fff;
 	font-size: 15px;
+	
 }
 
 .mu-register-form .form-control:-moz-placeholder { /* Firefox 18- */
