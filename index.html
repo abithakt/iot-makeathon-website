@@ -184,7 +184,7 @@
                                 </div>
 							</div>
 
-							<div class="mu-register-content">
+							<div id="mu-register-content">
                                 <div id="form-messages"></div>
 								<form method="post" action="https://vitcsenseiot.us17.list-manage.com/subscribe/post?u=15dc6399dc21fcb96a156d45d&amp;id=8e94578f59" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mu-register-form" target="_blank" novalidate>
 
@@ -477,11 +477,21 @@
 
     <!-- Custom js -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
-    <script data-cfasync="false" type="text/javascript"
-src="form-submission-handler.js"></script>
+    <!--script data-cfasync="false" type="text/javascript"
+src="form-submission-handler.js"></script-->
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[6]='NAMET';ftypes[6]='text';fnames[1]='NAME1';ftypes[1]='text';fnames[2]='NAME2';ftypes[2]='text';fnames[3]='NAME3';ftypes[3]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[4]='PHONEC';ftypes[4]='phone';fnames[7]='PHONEW';ftypes[7]='number';fnames[5]='AFFL';ftypes[5]='text';fnames[8]='HBLOCK';ftypes[8]='text';fnames[9]='ROOM';ftypes[9]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <!--
+    <script type='text/javascript'>
+    $(document).ready(function() {
+        $("#mc-embedded-subscribe").submit(function(e) {
+            e.preventDefault();
+            $("#mu-register-content").hide();
+            $("#thankyou_message").show();
+        });
+    });
 
-
+    </script>
+    -->
 
   </body>
 </html>
